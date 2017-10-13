@@ -1,29 +1,48 @@
-#pageHome{
-  .section{
+@import '../../theme/variables.less';
+
+#pageHome {
+  .section {
     height: 100vh;
   }
 
-  #homeTitle{
+  #homeTitle {
     background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  #game{
+  #game {
     background-color: #354b5b;
   }
 
-  #live{
+  #live {
     background-color: #e4bfab;
   }
 
-  #js30day{
+  #js30day {
     background-color: #018bb2;
+  }
+  .menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: @menu_height;
+    background: pink;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    &.slideIn {
+      //display: block;
+      opacity: 1;
+    }
+    .link {
+      margin-right: 10px;
+    }
   }
   .goHome {
     position: fixed;
-    top: 0px;
+    top: @menu_height;
     left: 0px;
     height: 100vh;
     width: 60px;
@@ -38,7 +57,7 @@
   }
   .animatedRoute {
     position: fixed;
-    top: 0px;
+    top: @menu_height;
     left: 60px;
     //width: 100%;
     width: calc(~"100% - 60px");

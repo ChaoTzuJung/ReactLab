@@ -1,4 +1,13 @@
+@import '../../../../theme/variables.less';
+
 .detailPage {
-  height: 100vh;
+  height: calc(~"100vh - @{menu_height}");
   background: red;
+  overflow: auto;
+  padding: 50px;
+}
+.detailContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
