@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Card from '../../components/Card';
 import webJson from '../../webData.json';
+
 import './DetailPage.less';
 
 export default class DetailPage extends Component {
