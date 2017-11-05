@@ -1,7 +1,7 @@
 [
   {
-    "key": "Util",
-    "title": "小工具",
+    "key": "Code",
+    "title": "Code",
     "dataList": [
       {
         "key": "react_thumbnail",
@@ -28,8 +28,8 @@
     ]
   },
   {
-    "key": "game",
-    "title": "小遊戲",
+    "key": "Design",
+    "title": "Design",
     "dataList": [
       {
         "key": "react_challenge_1to50",
@@ -76,8 +76,8 @@
       }
     ]
   },{
-    "key": "live",
-    "title": "直播影片",
+    "key": "Animation",
+    "title": "Animation",
     "dataList": [
       {
         "key": "ReactMaker#1",
@@ -130,8 +130,8 @@
       }
     ]
   },{
-    "key": "js30day",
-    "title": "JS 30 Day",
+    "key": "Language",
+    "title": "Language",
     "dataList": [
       {
         "key": "tutorial_props",

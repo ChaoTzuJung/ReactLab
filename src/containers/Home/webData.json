@@ -1,7 +1,7 @@
 [
   {
-    "key": "Util",
-    "title": "Tools",
+    "key": "Coding",
+    "title": "Coding",
     "desc": "製作簡單、方便、好用的小工具可以幫助很多剛開始踏入 React 的新手快速的熟悉，像是 StartKit 就是我們想讓大家可以快速上手的所搭件的橋樑",
     "dataList": [
       {
@@ -29,8 +29,8 @@
     ]
   },
   {
-    "key": "game",
-    "title": "Games",
+    "key": "Design",
+    "title": "Design",
     "desc": "復刻經典的小遊戲，透過 React 讓大家學習怎麼去操作 DOM 並且用 data-driven 的方式來更新畫面，讓所學融會貫通。",
     "dataList": [
       {
@@ -78,8 +78,8 @@
       }
     ]
   },{
-    "key": "live",
-    "title": "Live Videos",
+    "key": "Animation",
+    "title": "Animation",
     "desc": "我們如果有時間就會透過 zoom/FB 為各位做直播分享 React 的相關知識或是實戰，每次結束之後就會錄影放在 Youtube 上面，你可以點選影片來回顧。",
     "dataList": [
       {
@@ -145,8 +145,8 @@
       }
     ]
   },{
-    "key": "js30ay",
-    "title": "JS 100 Day",
+    "key": "Language",
+    "title": "Language",
     "desc": "JS 30 Day 是 Wes Bos 知名的免費教學，我們挑選出可以被 React 化的一些章節實作，並且放在我們的 Github 上面讓大家可以複製回去動手做做看。",
     "dataList": [
       {

@@ -3,12 +3,16 @@ import PropTypes from 'prop-types';
 import { AnimatedRoute } from 'react-router-transition';
 import { Link } from 'react-router-dom';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import FontAwesome from 'react-fontawesome';
 
-import HomeTitle from './components/HomeTitle';
+import Header from './components/Header';
+// import HomeTitle from './components/HomeTitle';
 import Section from './components/Section';
 import DetailPage from './components/DetailPage';
+import FlipCard from './components/FlipCard';
 
 import webJson from './webData.json';
+import member from './member.json';
 import './Home.less';
 
 export default class Home extends Component {
@@ -21,6 +25,10 @@ export default class Home extends Component {
     this.props.history.push(`/detail/${type}`);
   }
 
+  goHome = () => {
+    this.props.history.push('/');
+  }
+
   render() {
     const { isExact } = this.props.match;
 
@@ -28,7 +36,9 @@ export default class Home extends Component {
 
     return (
       <div id="pageHome">
-        <HomeTitle />
+        <div className="Header">
+          <Header />
+        </div>
         <ParallaxProvider>
           {
             webJson.map((sectionData, index) =>
@@ -44,6 +54,11 @@ export default class Home extends Component {
             )
           }
         </ParallaxProvider>
+        <div className="profile">
+          {
+            member.map(memberData => <FlipCard {...memberData} />)
+          }
+        </div>
         <div className={`menu ${!isExact && 'slideIn'}`}>
           {
             webJson.map(sectionData => (
@@ -51,8 +66,10 @@ export default class Home extends Component {
             ))
           }
         </div>
-        <div className={`goHome ${!isExact && 'slideIn'}`}>
-          <Link to="/">{'<-'}</Link>
+        <div className={`goHome ${!isExact && 'slideIn'}`} onClick={this.goHome}>
+          <div className="animated bounce">
+            <FontAwesome name="chevron-left"/>
+          </div>
         </div>
         <AnimatedRoute
           className="animateRoute"
