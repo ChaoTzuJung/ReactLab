@@ -36,9 +36,7 @@ export default class Home extends Component {
 
     return (
       <div id="pageHome">
-        <div className="Header">
-          <Header />
-        </div>
+        <Header />
         <ParallaxProvider>
           {
             webJson.map((sectionData, index) =>
