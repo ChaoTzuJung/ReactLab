@@ -31,7 +31,7 @@ export default class Block extends Component {
             <span className="card-title">#</span>
           </div>
           <div className="card-content">
-            <span className="card-title grey-text text-darken-4">{name}<i className="material-icons right activator">more_vert</i></span>
+            <span className="card-title activator grey-text text-darken-4">{name}<i className="material-icons right">more_vert</i></span>
           </div>
           <div className="card-reveal">
             <span className="card-title grey-text text-darken-4">{name}<i className="material-icons right">close</i></span>
