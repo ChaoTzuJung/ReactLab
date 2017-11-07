@@ -6,10 +6,11 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import FontAwesome from 'react-fontawesome';
 
 import Header from './components/Header';
-// import HomeTitle from './components/HomeTitle';
+import Slider from './components/Slider';
 import Section from './components/Section';
 import DetailPage from './components/DetailPage';
 import FlipCard from './components/FlipCard';
+import Footer from './components/Footer';
 
 import webJson from './webData.json';
 import member from './member.json';
@@ -37,6 +38,7 @@ export default class Home extends Component {
     return (
       <div id="pageHome">
         <Header />
+        <Slider />
         <ParallaxProvider>
           {
             webJson.map((sectionData, index) =>
@@ -44,7 +46,7 @@ export default class Home extends Component {
                 reverse={index % 2 === 0}
                 key={sectionData.key}
                 title={sectionData.title}
-                dataList={sectionData.dataList.slice(-3).reverse()}
+                dataList={sectionData.dataList.slice(-4).reverse()}
                 id={sectionData.key}
                 goDetail={this.goDetail}
                 desc={sectionData.desc}
@@ -80,6 +82,7 @@ export default class Home extends Component {
             transform: `translateX(${styles.offset}%)`,
           })}
         />
+        <Footer />
       </div>
     );
   }
