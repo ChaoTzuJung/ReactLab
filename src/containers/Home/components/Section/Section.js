@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Parallax } from 'react-scroll-parallax';
 import cx from 'classnames';
-import Card from '../Card';
+import Block from '../Card/Block';
+import Wave from '../Wave';
 import './Section.less';
 
 export default class Section extends Component {
@@ -19,29 +19,27 @@ export default class Section extends Component {
     const {
       title, id, dataList, goDetail, desc, reverse
     } = this.props;
-    const sectionClass = cx('section', { reverse });
     return (
-      <div className={sectionClass} id={id}>
-        <div className="sectionTitle">
-          <div className="blur"/>
-          <Parallax className="shadow" offsetYMax={50} offsetYMin={-50}>
-            <div>{title}</div>
-          </Parallax>
-          <div className="titleText">
+      <div className="section" id={id}>
+        <div className="headertitle">
+          <div className="item">
             <h2>{title}</h2>
-            <p>{desc}</p>
-            <button className="more" onClick={() => goDetail(id)}>More</button>
           </div>
+          <button className="more" onClick={() => goDetail(id)}>
+            <Wave />
+          </button>
         </div>
         <div className="content">
-          {
-            dataList.map(
-              data =>
-                <Card
-                  {...data}
-                />
-            )
-          }
+          <div className="row">
+            {
+              dataList.map(
+                data =>
+                  <Block
+                    {...data}
+                  />
+              )
+            }
+          </div>
         </div>
       </div>
     );
