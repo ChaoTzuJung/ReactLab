@@ -27,12 +27,11 @@ export default class Block extends Component {
       <div className="col s12 m6 l4">
         <div className="card">
           <div className="card-image waves-effect waves-block waves-light">
-            <img className="activator" src="http://fakeimg.pl/300/" alt="#" />
+            <img src="http://fakeimg.pl/300/" alt="#" />
             <span className="card-title">#</span>
           </div>
           <div className="card-content">
-            <span className="card-title activator grey-text text-darken-4">{name}<i className="material-icons right">more_vert</i></span>
-            <p><a href={repoUrl}>This is a link</a></p>
+            <span className="card-title grey-text text-darken-4">{name}<i className="material-icons right activator">more_vert</i></span>
           </div>
           <div className="card-reveal">
             <span className="card-title grey-text text-darken-4">{name}<i className="material-icons right">close</i></span>
