@@ -10,6 +10,7 @@
         "description": "React 使用antd上傳圖片、影片，並取得base64的image呈現縮圖。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510073026/coding1_kq2ydy.jpg",
         "demoUrl": "https://reactmaker.github.io/react_generator/",
+        "youtubeUrl": "https://www.youtube.com/watch?v=lMMZEzgF-FM",
         "repoUrl": "https://github.com/ReactMaker/react_thumbnail"
       },{
         "key": "react_generator",
@@ -17,6 +18,7 @@
         "description": "使用React+Material UI+Mobx實作React程式碼產生器只要修改左側名稱，右邊會即時顯示React程式碼結構",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510073027/coding2_pryx1k.jpg",
         "demoUrl": "https://reactmaker.github.io/react_thumbnail/",
+        "youtubeUrl": "https://www.youtube.com/watch?v=u_yoOEqWPCU",
         "repoUrl": "https://github.com/ReactMaker/react_generator"
       },{
         "key": "simple_react1",
@@ -24,6 +26,7 @@
         "description": "這個環境包可以讓你快速體驗ReactJS開發環境的便利，希望可以讓你用最簡單的環境開始學習React。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510073025/coding3_neqfrr.jpg",
         "demoUrl": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=AHKFmnqGuf8",
         "repoUrl": "https://github.com/ReactMaker/simple_react_start_kit_2017"
       },{
         "key": "simple_react2",
@@ -31,6 +34,7 @@
         "description": "這個環境包可以讓你快速體驗ReactJS開發環境的便利，希望可以讓你用最簡單的環境開始學習React。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510073027/coding4_x3mmby.jpg",
         "demoUrl": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=6O_1Y9HrC-E",
         "repoUrl": "https://github.com/ReactMaker/simple_react_start_kit_2017"
       },{
         "key": "simple_react3",
@@ -38,6 +42,7 @@
         "description": "這個環境包可以讓你快速體驗ReactJS開發環境的便利，希望可以讓你用最簡單的環境開始學習React。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510073027/coding5_g29gow.jpg",
         "demoUrl": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=8qgsYUTl4P4",
         "repoUrl": "https://github.com/ReactMaker/simple_react_start_kit_2017"
       },{
         "key": "simple_react4",
@@ -45,6 +50,7 @@
         "description": "這個環境包可以讓你快速體驗ReactJS開發環境的便利，希望可以讓你用最簡單的環境開始學習React。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510073025/coding6_ec81ig.jpg",
         "demoUrl": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=8qgsYUTl4P4",
         "repoUrl": "https://github.com/ReactMaker/simple_react_start_kit_2017"
       },{
         "key": "simple_react5",
@@ -52,6 +58,7 @@
         "description": "這個環境包可以讓你快速體驗ReactJS開發環境的便利，希望可以讓你用最簡單的環境開始學習React。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510073025/coding7_x6yz2v.jpg",
         "demoUrl": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=HMLct79Lyhw",
         "repoUrl": "https://github.com/ReactMaker/simple_react_start_kit_2017"
       },{
         "key": "simple_react6",
@@ -59,6 +66,7 @@
         "description": "這個環境包可以讓你快速體驗ReactJS開發環境的便利，希望可以讓你用最簡單的環境開始學習React。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510073026/coding8_sglyli.jpg",
         "demoUrl": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=nqBo5XCkKhU",
         "repoUrl": "https://github.com/ReactMaker/simple_react_start_kit_2017"
       },{
         "key": "simple_react7",
@@ -66,6 +74,7 @@
         "description": "這個環境包可以讓你快速體驗ReactJS開發環境的便利，希望可以讓你用最簡單的環境開始學習React。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510073025/coding9_tkjw3i.jpg",
         "demoUrl": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=nqBo5XCkKhU",
         "repoUrl": "https://github.com/ReactMaker/simple_react_start_kit_2017"
       }
     ]
@@ -81,6 +90,7 @@
         "description": "React JS 製作1 to 50遊戲",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510111590/design1_mah8tz.jpg",
         "demoUrl": "http://reactmaker.github.io/react_challenge_1to50",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_1to50/"
       },{
         "key": "react_challenge_davinci_code",
@@ -88,6 +98,7 @@
         "description": "React JS 製作終極密碼遊戲，電腦隨機從1~100中抽取數字，讓使用者進行猜數字。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510111591/design2_zez2oc.jpg",
         "demoUrl": "https://reactmaker.github.io/react_challenge_davinci_code/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_davinci_code"
       },{
         "key": "react_challenge_train99",
@@ -95,6 +106,7 @@
         "description": "React JS 製作特訓 99 閃避子彈遊戲",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510111589/design3_ycokbi.jpg",
         "demoUrl": "https://reactmaker.github.io/react_challenge_train99/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_train99"
       },{
         "key": "react_challenge_snake_game",
@@ -102,6 +114,7 @@
         "description": "ReactJs 實作貪食蛇小遊戲",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510111590/design4_zfvnvv.jpg",
         "demoUrl": "https://reactmaker.github.io/react_challenge_snake_game/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_snake_game"
       },{
         "key": "tic_tac_toe",
@@ -109,6 +122,7 @@
         "description": "用ReactJS做出井字遊戲",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510111589/design5_nxuupq.jpg",
         "demoUrl": "https://reactmaker.github.io/tic_tac_toe/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/tic_tac_toe"
       },{
         "key": "react_challenge_whack_a_mole_game",
@@ -116,6 +130,7 @@
         "description": "ReactJS 實作打地鼠小遊戲",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510111590/design6_sb4ick.jpg",
         "demoUrl": "https://reactmaker.github.io/react_challenge_whack_a_mole_game/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_whack_a_mole_game"
       },{
         "key": "react_challenge_whack_a_mole_game",
@@ -123,6 +138,7 @@
         "description": "ReactJS 實作打地鼠小遊戲",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510111589/design7_i6xdbz.jpg",
         "demoUrl": "https://reactmaker.github.io/react_challenge_whack_a_mole_game/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_whack_a_mole_game"
       },{
         "key": "react_challenge_whack_a_mole_game",
@@ -130,6 +146,7 @@
         "description": "ReactJS 實作打地鼠小遊戲",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510111590/design8_kgkm7m.jpg",
         "demoUrl": "https://reactmaker.github.io/react_challenge_whack_a_mole_game/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_whack_a_mole_game"
       },{
         "key": "react_challenge_whack_a_mole_game",
@@ -137,6 +154,7 @@
         "description": "ReactJS 實作打地鼠小遊戲",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510111591/design9_m6q3qo.jpg",
         "demoUrl": "https://reactmaker.github.io/react_challenge_whack_a_mole_game/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_whack_a_mole_game"
       }
     ]
@@ -212,6 +230,7 @@
         "description": "教你怎麼抽出元件，然後從外面把數值傳入元件內，搭配一個卡片的範例，很簡單懂的。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510112165/language1_s0is2t.jpg",
         "demoUrl": "https://reactmaker.github.io/tutorial_props/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/tutorial_props"
       },{
         "key": "react_challenge_mouse_move_shadow",
@@ -219,6 +238,7 @@
         "description": "用 ReactJS 來監聽滑鼠移動的事件，當游標停止超過一秒鐘，寶貝球就會往游標飄移過去。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510112167/language2_zojsrb.jpg",
         "demoUrl": "https://reactmaker.github.io/react_challenge_mouse_move_shadow/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_mouse_move_shadow"
       },{
         "key": "react_challenge_flex_panel_gallery",
@@ -226,6 +246,7 @@
         "description": "React JS 製作出來的開合相簿動畫，點擊不同的圖片會張開，並且透過 css animation 來讓文字掉下來。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510112163/language3_be7ksl.jpg",
         "demoUrl": "https://reactmaker.github.io/react_challenge_flex_panel_gallery/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_flex_panel_gallery"
       },{
         "key": "react_challenge_clock",
@@ -233,6 +254,7 @@
         "description": "這是一個使用 React 做出時鐘的範例。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510112167/language4_jckapu.jpg",
         "demoUrl": "https://reactmaker.github.io/react_challenge_clock/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_clock"
       },{
         "key": "react_challenge_hold_shift_to_check_multiple_checkboxe",
@@ -240,6 +262,7 @@
         "description": "用 React JS 製作check list，並加上點擊shift 可複選的功能。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510112165/language5_rnj22h.jpg",
         "demoUrl": "https://reactmaker.github.io/react_challenge_hold_shift_to_check_multiple_checkboxes/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_hold_shift_to_check_multiple_checkboxes"
       },{
         "key": "react_challenge_ajax_type_ahead",
@@ -247,6 +270,7 @@
         "description": "使用React 做出ajax 載入搜尋列表的功能。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510112164/language6_v3jvrz.jpg",
         "demoUrl": "https://reactmaker.github.io/react_challenge_ajax_type_ahead/#/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_ajax_type_ahead"
       },{
         "key": "react_challenge_Key_Sequence_Detection",
@@ -254,6 +278,7 @@
         "description": "可以讓網頁偵測使用者輸入的字，當字串符合密碼以後解鎖按鈕。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510112164/language7_obr3ht.jpg",
         "demoUrl": "https://reactmaker.github.io/react_challenge_Key_Sequence_Detection/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_Key_Sequence_Detection"
       },{
         "key": "react_challenge_countdown_timer",
@@ -261,6 +286,7 @@
         "description": "Reactjs製作倒數計時器，搭配moment.js幫助我們快速格式化時間，可自行輸入分鐘轉換成倒數計時時間。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510112166/language8_mmqojs.jpg",
         "demoUrl": "https://reactmaker.github.io/react_challenge_countdown_timer/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_countdown_timer"
       },{
         "key": "react_challenge_css_variables",
@@ -268,6 +294,7 @@
         "description": "用 ReactJS 來做一個調整CSS數值，並對圖片產生邊框加粗、模糊、變色等效果。",
         "img": "http://res.cloudinary.com/de8zvhth3/image/upload/v1510112163/language9_jbepht.jpg",
         "demoUrl": "https://reactmaker.github.io/react_challenge_css_variables/",
+        "youtubeUrl": "https://youtube",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_css_variables"
       }
     ]

@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import FontAwesome from 'react-fontawesome';
 import cx from 'classnames';
+import { Link } from 'react-router-dom';
 import Block from '../Card/Block';
 import Wave from '../Wave';
 import './Section.less';
+import VideoPage from '../VideoPage';
+
 
 export default class Section extends Component {
   static propTypes = {
@@ -15,9 +19,10 @@ export default class Section extends Component {
     reverse: PropTypes.bool,
   }
 
+
   render() {
     const {
-      title, id, dataList, goDetail, desc, reverse
+      title, id, VideoId, dataList, goDetail, desc, reverse, goVideo
     } = this.props;
     return (
       <div className="section" id={id}>
@@ -45,3 +50,4 @@ export default class Section extends Component {
     );
   }
 }
+

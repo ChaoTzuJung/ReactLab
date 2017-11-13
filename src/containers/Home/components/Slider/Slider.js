@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+
 // import PropTypes from 'prop-types';
 // import $ from 'jquery';
 // import { Button, Card, Row, Col, Input, Modal, Icon } from 'react-materialize';
 import './Slider.less';
 
 export default class Slider extends Component {
+
   render() {
     return (
       <div className="slider">

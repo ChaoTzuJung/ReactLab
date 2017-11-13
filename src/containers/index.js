@@ -1,12 +1,16 @@
 import React from 'react';
 // import package
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch, BrowserRouter } from 'react-router-dom';
+// import { Router, browserHistory } from 'react-router';
 // import 'normalize.css/normalize.css';
 import 'ress/dist/ress.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import 'animate.css/animate.min.css';
 
 // import relative path
+import VideoPage from './Home/components/VideoPage';
+import Signup from './Home/Signup';
+import Aboutus from './Home/Aboutus';
 import Home from './Home';
 import NotFound from './NotFound';
 
@@ -14,6 +18,9 @@ const Main = () => (
   <Router>
     <Switch>
       {/* <Route exact path="/" component={Home} />*/}
+      <Route path="/VideoPage" component={VideoPage} />
+      <Route path="/Aboutus" component={Aboutus} />
+      <Route path="/signup" component={Signup} />
       <Route path="/" component={Home} />
       <Route component={NotFound} />
     </Switch>

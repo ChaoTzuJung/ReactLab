@@ -1,0 +1,88 @@
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import SideNav from '../Sidenav/Sidenav';
+import Logo from '../../../../static/images/liveshare.png';
+import './Header2.less';
+
+export default class Header2 extends Component {
+
+  render() {
+
+    const headerLogoImg = {
+      backgroundImage: `url(${Logo})`
+    };
+
+    return (
+      <div>
+        {/* Navbar */}
+        <nav className="header fixed">
+          <div className="nav-wrapper white">
+            {/* LOGO */}
+            <li className="brand-logo center">
+              <div className="imgBox">
+                <div className="imgBox-inner">
+                  <div className="imgBox-fit">
+                    <img className="image" alt="liveshare" src={`${Logo}`} />
+                  </div>
+                </div>
+              </div>
+            </li>
+            {/* 右邊的按鈕 */}
+            <ul className="right hide-on-med-and-down">
+              <li>
+                <a className="grey-text grey-darken-4 item">Log in</a>
+              </li>
+              <li>
+                <a className="dropdown-button grey-text text-darken-4 item" data-activates="comp-menu" data-beloworigin="true" data-constrainwidth="false">Sign Up<i className="material-icons right icon-grey-darken-4">arrow_drop_down</i></a>
+              </li>
+            </ul>
+            {/* SearchBar的收尋案鈕 */}
+            <ul className="right">
+              <li className="item">
+                <a id="search-icon">
+                  <i className="material-icons icon-grey-darken-4">search</i>
+                </a>
+              </li>
+            </ul>
+
+            {/* 漢堡選單CLOSE */}
+            <a className="button-collapse" data-activates="mobile-menu"><i className="material-icons icon-grey-darken-4" id="hanburger-icon">menu</i></a>
+
+            {/* SearchBar */}
+            <div className="left" style={{height: "100%", width: "100vw"}}>
+              <form>
+                <div className="input-field" id="search-div">
+                  <input type="search" id="search-txt" />
+                  <i className="material-icons icon-grey-darken-4 posr-l-10">search</i>
+                  <i className="material-icons" id="close-icon">close</i>
+                </div>
+              </form>
+            </div>
+
+            {/* 漢堡選單OPEN */}
+            <ul className="side-nav" id="mobile-menu">
+              <li><a><i className="material-icons icon-grey-darken-4">search</i></a></li>
+              <li><a>Log in</a></li>
+              <a className="dropdown-button" data-activates="mob-menu" data-beloworigin="true">Sign up<i className="material-icons right">arrow_drop_down</i></a>
+            </ul>
+          </div>
+          {/* For Sign up button dropdown comp  */}
+          <ul id="comp-menu" className="dropdown-content">
+            <li><a>個人資料</a></li>
+            <li><a>我開的課</a></li>
+            <li className="divider">z</li>
+            <li><a>登入</a></li>
+          </ul>
+          {/* For Sign up button dropdown mobile  */}
+          <ul id="mob-menu" className="dropdown-content">
+            <li><a>個人資料</a></li>
+            <li><a>我開的課</a></li>
+            <li className="divider">a</li>
+            <li><a>登入</a></li>
+          </ul>
+        </nav>
+      </div>
+    );
+  }
+}
+

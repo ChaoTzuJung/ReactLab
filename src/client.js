@@ -1,27 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
 import { AppContainer } from 'react-hot-loader';
+import promise from 'redux-promise';
 import 'materialize-css/dist/css/materialize.min.css';
 import 'materialize-css/dist/js/materialize.min.js';
-import Main from 'containers/';
+import reducers from './reducers';
+import Main from './containers/';
+
+const createStoreWithMiddleWare = applyMiddleware(promise)(createStore);
 
 ReactDOM.render(
-  <AppContainer>
+  <Provider store={createStoreWithMiddleWare(reducers)}>
     <Main />
-  </AppContainer>,
-  document.getElementById('app')
+  </Provider>
+  , document.getElementById('app')
 );
-
-// migrate by this guide
-// https://github.com/gaearon/react-hot-loader/tree/master/docs#migration-to-30
-if (module.hot) {
-  module.hot.accept('containers/', () => {
-    const NewMain = require('containers/').default;
-    ReactDOM.render(
-      <AppContainer>
-        <NewMain />
-      </AppContainer>,
-      document.getElementById('app')
-    );
-  });
-}
