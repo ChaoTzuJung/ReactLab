@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+// <-- for Img 比例 -->
+.brand-logo {
+  height: 100%;
+  // <-- 針對螢幕的寬 比例 -->
+  .imgBox{
+    width: 15%;
+  // <-- 推比例 -->
+    .imgBox-inner{
+      width: 152px;
+      padding-top: 60px;
+      .imgBox-fit {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        .image{
+          width: 100%;
+          display: block;
+          object-fit: cover;
+          object-position: center;
+          height: inherit;
+        }
+      }
+    }
+  }
+}
+.foot-list{
+  display: flex;
+  justify-content: space-around;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.fr {
+  float: right;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
