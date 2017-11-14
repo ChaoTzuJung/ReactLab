@@ -7,7 +7,7 @@ export default class Header extends Component {
     return (
       <div className="wrapper">
         <a className="btn_more">
-          <span>More...</span>
+          <span>More</span>
         </a>
       </div>
     );

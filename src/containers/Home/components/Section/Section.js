@@ -26,9 +26,9 @@ export default class Section extends Component {
     } = this.props;
     return (
       <div className="section" id={id}>
-        <div className="headertitle">
+        <div className="section_title">
           <div className="item">
-            <h2>{title}</h2>
+            <h4>{title}</h4>
           </div>
           <button className="more" onClick={() => goDetail(id)}>
             <Wave />

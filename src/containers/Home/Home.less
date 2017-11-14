@@ -1,4 +1,4 @@
-@menu_height: 40px;
+@menu_height: 64px;
 
 #pageHome{
   //background-image: url('../../static/images/bg2.jpg');
@@ -15,7 +15,6 @@
 
   .menu {
     position: fixed;
-    z-index: 99;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -30,6 +29,7 @@
     &.slideIn {
       // display: block;
       opacity: 1;
+      z-index: 99;
     }
 
     .link {
@@ -41,7 +41,7 @@
       line-height: @menu_height;
       color: #555;
       &:hover {
-        color: #29D272;
+        color: #fff;
         font-size: 1.6rem;
         line-height: 2rem;
       }
@@ -88,6 +88,9 @@
   }
 
   .bg-nav-more {
-    background-color: green;
+    // background-color: #1BB289;
+    height: 64px;
+    display: none;
+    transition: all 0.6s ease-in-out;
   }
 }

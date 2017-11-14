@@ -30,7 +30,7 @@ export default class Header2 extends Component {
             {/* 右邊的按鈕 */}
             <ul className="right hide-on-med-and-down">
               <li>
-                <a className="grey-text grey-darken-4 item">Log in</a>
+                <a className="dropdown-button grey-text text-darken-4  item">Log in</a>
               </li>
               <li>
                 <a className="dropdown-button grey-text text-darken-4 item" data-activates="comp-menu" data-beloworigin="true" data-constrainwidth="false">Sign Up<i className="material-icons right icon-grey-darken-4">arrow_drop_down</i></a>
