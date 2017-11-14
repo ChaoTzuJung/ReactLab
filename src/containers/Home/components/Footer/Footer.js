@@ -9,17 +9,17 @@ export default class Footers extends Component {
   render() {
     return (
       <footer className="page-footer blue-grey darken-4">
-        <div className="container bd-1-yellow">
+        <div className="container">
           <div className="row">
-            <div className="col l6 s12 bd-1-red w50">
+            <div className="col l6 s12 w50">
               <ul className="foot-list">
                 <li><a className="grey-text text-lighten-3" href="#!">關於我們</a></li>
                 <li><a className="grey-text text-lighten-3" href="#!">提供意見</a></li>
                 <li><a className="grey-text text-lighten-3" href="#!">隱私權</a></li>
-                <li><a className="grey-text text-lighten-3" href="#!">服務條件</a></li>
+                <li><a className="grey-text text-lighten-3" href="#!">服務條款</a></li>
               </ul>
             </div>
-            <div className="col l6 s12 bd-1-orange w50">
+            <div className="col l6 s12 w50">
               <ul className="foot-list">
                 <li><i className="fa fa-twitter fa-2x" aria-hidden="true" /></li>
                 <li><i className="fa fa-instagram fa-2x" aria-hidden="true" /></li>
@@ -29,9 +29,9 @@ export default class Footers extends Component {
             </div>
           </div>
         </div>
-        <div className="footer-copyright bd-1-white">
-          <div className="container flex-jc-sb-ai-ct bd-1-green">
-            <div className="bd-1-blue align-self-fe">
+        <div className="footer-copyright">
+          <div className="container flex">
+            <div className="align-self-fe m10">
               <div className="imgBox">
                 <div className="imgBox-inner">
                   <div className="imgBox-fit">
@@ -40,8 +40,10 @@ export default class Footers extends Component {
                 </div>
               </div>
             </div>
-            <p className="align-self-fe mb10">Copyright @ 2017 LiveShare Inc. 保留一切權利。</p>
-            <select className="browser-default w16 fr align-self-fe">
+            <div className="align-self-fe mb10">
+              <p>Copyright @ 2017 LiveShare Inc. 保留一切權利。</p>
+            </div>
+            <select className="browser-default w25 fr align-self-fe posa-r0">
               <option value="" disabled selected>Choose your language</option>
               <option value="1">繁體中文</option>
               <option value="2">簡體中文</option>

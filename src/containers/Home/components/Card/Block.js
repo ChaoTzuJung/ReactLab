@@ -31,9 +31,9 @@ export default class Block extends Component {
       <div className="col s12 m6 l3">
         <div className="card">
           <div className="card-image waves-effect waves-block waves-light">
-            <Link to="/VideoPage">
+            <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
               <img src={img} alt="#" />
-            </Link>
+            </a>
           </div>
           <div className="card-content">
             <span className="card-title activator grey-text text-darken-4">{name}<i className="material-icons right">more_vert</i></span>

@@ -30,10 +30,13 @@ export default class Header2 extends Component {
             {/* 右邊的按鈕 */}
             <ul className="right hide-on-med-and-down">
               <li>
+                <Link to="Aboutus" className="dropdown-button grey-text text-darken-4 item">About us</Link>
+              </li>
+              <li>
                 <a className="dropdown-button grey-text text-darken-4  item">Log in</a>
               </li>
               <li>
-                <a className="dropdown-button grey-text text-darken-4 item" data-activates="comp-menu" data-beloworigin="true" data-constrainwidth="false">Sign Up<i className="material-icons right icon-grey-darken-4">arrow_drop_down</i></a>
+                <a className="dropdown-button grey-text text-darken-4 item" data-activates="comp-menu" data-beloworigin="true" data-constrainwidth="false">Sign up<i className="material-icons right icon-grey-darken-4">arrow_drop_down</i></a>
               </li>
             </ul>
             {/* SearchBar的收尋案鈕 */}
@@ -46,7 +49,7 @@ export default class Header2 extends Component {
             </ul>
 
             {/* 漢堡選單CLOSE */}
-            <a className="button-collapse" data-activates="mobile-menu"><i className="material-icons icon-grey-darken-4" id="hanburger-icon">menu</i></a>
+            <a className="button-collapse" data-activates="side-out"><i className="material-icons icon-grey-darken-4" id="hanburger-icon" style={{zIndex: "99"}}>menu</i></a>
 
             {/* SearchBar */}
             <div className="left" style={{height: "100%", width: "100vw"}}>
@@ -60,7 +63,7 @@ export default class Header2 extends Component {
             </div>
 
             {/* 漢堡選單OPEN */}
-            <ul className="side-nav" id="mobile-menu">
+            <ul className="side-nav" id="side-out">
               <li><a><i className="material-icons icon-grey-darken-4">search</i></a></li>
               <li><a>Log in</a></li>
               <a className="dropdown-button" data-activates="mob-menu" data-beloworigin="true">Sign up<i className="material-icons right">arrow_drop_down</i></a>
@@ -68,7 +71,7 @@ export default class Header2 extends Component {
           </div>
           {/* For Sign up button dropdown comp  */}
           <ul id="comp-menu" className="dropdown-content">
-            <li><a>個人資料</a></li>
+            <li><a>講師陣容</a></li>
             <li><a>我開的課</a></li>
             <li className="divider">z</li>
             <li><a>登入</a></li>

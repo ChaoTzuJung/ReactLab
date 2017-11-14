@@ -42,12 +42,12 @@ export default class Header extends Component {
             </div>
             <ul className="left hide-on-med-and-dow">
               <li>
-                <a href="" className="greenline current">
+                <a href="" className="greenline">
                   <span className="grey-text text-darken-4">Video</span>
                 </a>
               </li>
               <li>
-                <Link to={`/Aboutus`} className="greenline">
+                <Link to={`/Aboutus`} className="greenline current">
                   <span className="grey-text text-darken-4">About us</span>
                 </Link>
               </li>
