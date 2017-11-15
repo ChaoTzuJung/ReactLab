@@ -10,9 +10,9 @@ export default class Home extends Component {
 
     return (
       <div id="pageHome">
-        <div className="profile">
+        <div className="profile owl-carousel owl-theme" id="owl-example">
           {
-            member.map(memberData => <FlipCard {...memberData} />)
+            member.map(memberData => <FlipCard className="item" {...memberData} />)
           }
         </div>
       </div>

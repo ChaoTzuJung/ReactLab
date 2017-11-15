@@ -75,15 +75,41 @@
     <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
     <script>
     $(document).ready(function(){
-        $('.owl-carousel').owlCarousel({
-            loop:true,
-            nav:true,
-            items: 1,
-            navText: [],
-            autoplay: true,
-            autoplaySpeed: 1000,
-            smartSpaeed: 500
-        })
+      $("#owl-example").on('initialized.owl.carousel changed.owl.carousel refreshed.owl.carousel', function (event) {
+          var carousel = event.relatedTarget,
+              element = event.target,
+              current = carousel.current();
+          $('.owl-next', element).toggleClass('disabled', current === carousel.maximum());
+          $('.owl-prev', element).toggleClass('disabled', current === carousel.minimum());
+      }).owlCarousel({
+          slideBy: 3,
+          dots: false,
+          nav: true,
+          navText: [],
+          margin: 10,
+          responsiveClass:true,
+          responsive:{
+              0:{
+                  items:1,
+                  nav:true
+              },
+              432:{
+                  items:2,
+                  nav:false
+              },
+              769:{
+                  items:3,
+                  nav:true,
+                  loop:false
+              }
+          }
+      });
+
+      $('#insert').on('click', function (e) {
+          var owl = $("#owl-example").data('owlCarousel');
+          owl.replace('<div class="item">NEW ONE</div><div class="item">NEW ONE</div><div class="item">NEW ONE</div><div class="item">NEW ONE</div><div class="item">NEW ONE</div><div class="item">NEW ONE</div><div class="item">NEW ONE</div>');
+          owl.refresh();
+      })
     });
     </script>
     <script>
