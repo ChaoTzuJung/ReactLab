@@ -6,6 +6,9 @@ import { HashRouter as Router, Route, Switch, BrowserRouter } from 'react-router
 import 'ress/dist/ress.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import 'animate.css/animate.min.css';
+// <!-- Import OwlCarousel2 -->
+import '../../node_modules/owl.carousel/dist/owl.carousel.min.js';
+import '../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
 
 // import relative path
 import VideoPage from './Home/components/VideoPage';
