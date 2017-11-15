@@ -31,43 +31,7 @@
   <!-- And then your bundled js -->
     <script src="path/to/your/bundle.js"></script>
   <!--Materializecss Slider-->
-    <script>
-      $(document).ready(function () {
-        $(".button-collapse").sideNav()
-        $(".dropdown-button").dropdown();
-      });
-    </script>
-    <script>
-      $(document).ready(function () {
-        $("#search-icon").click(function(e){
-          if($("#hanburger-icon").is(":visible")){
-            isMolbile=true;
-          };
-          $("#search-icon").hide();
-          $("#comp-menu").hide();
-          $(".button-collapse").hide();
-          $("#search-div").fadeIn();
-          $("#search-txt").focus();
-        });
 
-        $("#close-icon").click(function(e){
-          $("#search-div").fadeOut();
-          $("#search-icon").fadeIn();
-          if(isMolbile){
-            $(".button-collapse").fadeIn();
-          }
-          else{
-            $("#comp-menu").fadeIn();
-          }
-        });
-
-        $("#close-txt").blur(function(e){
-          $("#search-div").hide();
-          $(".button-collapse").show();
-          $("#search-icon").fadeIn();
-        });
-      });
-    </script>
     <script>
       $(document).ready(function(){
         $('.collapsible').collapsible();

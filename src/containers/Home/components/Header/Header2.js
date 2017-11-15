@@ -7,6 +7,40 @@ import Logo from '../../../../static/images/liveshare.png';
 import './Header2.less';
 
 export default class Header2 extends Component {
+  componentDidMount() {
+    window.$(document).ready(() => {
+      let isMolbile = true;
+      window.$(".button-collapse").sideNav();
+      window.$(".dropdown-button").dropdown();
+
+      window.$("#search-icon").click(() => {
+        if (window.$("#hanburger-icon").is(":visible")) {
+          isMolbile = true;
+        }
+        window.$("#search-icon").hide();
+        window.$("#comp-menu").hide();
+        window.$(".button-collapse").hide();
+        window.$("#search-div").fadeIn();
+        window.$("#search-txt").focus();
+      });
+
+      window.$("#close-icon").click(() => {
+        window.$("#search-div").fadeOut();
+        window.$("#search-icon").fadeIn();
+        if (isMolbile) {
+          window.$(".button-collapse").fadeIn();
+        } else {
+          window.$("#comp-menu").fadeIn();
+        }
+      });
+
+      window.$("#close-txt").blur(() => {
+        window.$("#search-div").hide();
+        window.$(".button-collapse").show();
+        window.$("#search-icon").fadeIn();
+      });
+    });
+  }
 
   render() {
 
