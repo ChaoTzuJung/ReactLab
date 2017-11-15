@@ -9,10 +9,8 @@ import './Header2.less';
 export default class Header2 extends Component {
   componentDidMount() {
     window.$(document).ready(() => {
-      let isMolbile = true;
       window.$(".button-collapse").sideNav();
-      window.$(".dropdown-button").dropdown();
-
+      let isMolbile = true;
       window.$("#search-icon").click(() => {
         if (window.$("#hanburger-icon").is(":visible")) {
           isMolbile = true;
