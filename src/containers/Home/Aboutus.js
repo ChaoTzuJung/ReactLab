@@ -9,8 +9,46 @@ import './Aboutus.less';
 
 export default class Home extends Component {
 
-  render() {
+  componentDidMount() {
+    window.$(document).ready(() => {
+      window.$("#owl-example").on('initialized.owl.carousel changed.owl.carousel refreshed.owl.carousel', (event) => {
+      const carousel = event.relatedTarget;
+      const element = event.target;
+      const current = carousel.current();
+        window.$('.owl-next', element).toggleClass('disabled', current === carousel.maximum());
+        window.$('.owl-prev', element).toggleClass('disabled', current === carousel.minimum());
+      }).owlCarousel({
+          slideBy: 3,
+          dots: false,
+          nav: true,
+          navText: [],
+          margin: 10,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1,
+              nav: true
+            },
+            432: {
+              items: 2,
+              nav: false
+            },
+            769: {
+              items: 3,
+              nav: true,
+              loop: false
+            }
+          }
+      });
+      window.$('#insert').on('click', (e) => {
+        const owl = window.$("#owl-example").data('owlCarousel');
+          owl.replace('<div class="item">NEW ONE</div><div class="item">NEW ONE</div><div class="item">NEW ONE</div><div class="item">NEW ONE</div><div class="item">NEW ONE</div><div class="item">NEW ONE</div><div class="item">NEW ONE</div>');
+          owl.refresh();
+      });
+    });
+  }
 
+  render() {
     return (
       <div id="pageHome">
         <Header2 />
