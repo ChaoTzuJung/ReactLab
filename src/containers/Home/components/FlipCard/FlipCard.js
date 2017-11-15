@@ -8,14 +8,21 @@ export default class FildCard extends Component {
     name: PropTypes.String,
     title: PropTypes.String,
     photo: PropTypes.String,
-    // Expertise: PropTypes.String,
-    Introduction: PropTypes.String,
-    // github: PropTypes.String,
+    Introduction: PropTypes.String
+  }
+
+  componentDidMount() {
+    this.carousel.addEventListener('mouseenter', () => {
+      console.log('enter');
+    });
+    this.carousel.addEventListener('mouseleave', () => {
+      console.log('leave');
+    });
   }
 
   render() {
     return (
-      <div className="container flipCard">
+      <div className="container flipCard" ref={carousel => (this.carousel = carousel)}>
         <div className="front" style={{ backgroundImage: `url(${this.props.photo})` }}>
           <div className="inner">
             <p>{this.props.name}</p>

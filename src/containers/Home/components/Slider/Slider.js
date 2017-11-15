@@ -8,6 +8,20 @@ import Banner04 from '../../../../static/images/banner04.png';
 
 export default class Slider extends Component {
 
+  componentDidMount() {
+    window.$(document).ready(() => {
+      window.$('.owl-carousel').owlCarousel({
+        loop: true,
+        nav: true,
+        items: 1,
+        navText: [],
+        autoplay: true,
+        autoplaySpeed: 1000,
+        smartSpaeed: 500
+      });
+    });
+  }
+
   render() {
     return (
       <div className="wrapper">

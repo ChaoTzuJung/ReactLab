@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { findDOMNode } from 'react-dom';
+import $ from 'jquery';
 import SideNav from '../Sidenav/Sidenav';
 import Logo from '../../../../static/images/liveshare.png';
 import './Header2.less';
@@ -27,11 +29,14 @@ export default class Header2 extends Component {
                 </div>
               </div>
             </li>
-            {/* 右邊的按鈕 */}
-            <ul className="right hide-on-med-and-down">
+            {/* 左邊的按鈕 */}
+            <ul className="left hide-on-med-and-down">
               <li>
                 <Link to="Aboutus" className="dropdown-button grey-text text-darken-4 item">About us</Link>
               </li>
+            </ul>
+            {/* 右邊的按鈕 */}
+            <ul className="right hide-on-med-and-down">
               <li>
                 <a className="dropdown-button grey-text text-darken-4  item">Log in</a>
               </li>

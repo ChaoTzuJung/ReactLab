@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import './Block.less';
-
 
 export default class Block extends Component {
   static propTypes = {
@@ -11,8 +9,6 @@ export default class Block extends Component {
     img: PropTypes.string,
     demoUrl: PropTypes.string,
     repoUrl: PropTypes.string,
-    goVideo: PropTypes.func,
-    VideoId: PropTypes.string
   }
   render() {
     const {

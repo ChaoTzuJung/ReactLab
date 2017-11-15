@@ -37,9 +37,13 @@ class WebpackDevConfig extends WebpackBaseConfig {
           template: 'index.html',
         }),
         new webpack.ProvidePlugin({
-        $: "jquery",
-        jQuery: "jquery",
-        "window.jQuery": "jquery"
+          $: "jquery",
+          jQuery: "jquery",
+          "window.jQuery": "jquery",
+          createDayLabel: "jquery",
+          createWeekdayLabel: "jquery",
+          activateOption: "jquery",
+          leftPosition: "jquery"
         })
       ]
     };
