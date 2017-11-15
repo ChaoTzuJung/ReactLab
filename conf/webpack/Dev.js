@@ -36,15 +36,6 @@ class WebpackDevConfig extends WebpackBaseConfig {
         new HtmlWebpackPlugin({
           template: 'index.html',
         }),
-        new webpack.ProvidePlugin({
-          $: "jquery",
-          jQuery: "jquery",
-          "window.jQuery": "jquery",
-          createDayLabel: "jquery",
-          createWeekdayLabel: "jquery",
-          activateOption: "jquery",
-          leftPosition: "jquery"
-        })
       ]
     };
     this.config.output.publicPath = './';
@@ -52,3 +43,4 @@ class WebpackDevConfig extends WebpackBaseConfig {
 }
 
 module.exports = WebpackDevConfig;
+

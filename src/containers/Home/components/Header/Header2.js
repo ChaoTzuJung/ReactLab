@@ -10,7 +10,6 @@ export default class Header2 extends Component {
   componentDidMount() {
     window.$(document).ready(() => {
       window.$(".button-collapse").sideNav();
-      let isMolbile = true;
       window.$("#search-icon").click(() => {
         if (window.$("#hanburger-icon").is(":visible")) {
           isMolbile = true;

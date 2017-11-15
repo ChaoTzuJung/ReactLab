@@ -31,6 +31,7 @@
     "arrow-body-style": ["off"],
     "no-unreachable": ["off"],
     "react/no-string-refs": ["off"],
+    "no-undef": ["off"],
     "react/no-unknown-property": ["off"],
     "import/no-webpack-loader-syntax": ["off"],
     "jsx-a11y/label-has-for": ["off"],

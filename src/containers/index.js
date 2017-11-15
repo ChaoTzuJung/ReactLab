@@ -9,6 +9,9 @@ import 'animate.css/animate.min.css';
 // <!-- Import OwlCarousel2 -->
 import '../../node_modules/owl.carousel/dist/owl.carousel.min.js';
 import '../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
+import '../../node_modules/materialize-css/dist/css/materialize.min.css';
+import '../../node_modules/materialize-css/dist/js/materialize.min.js';
+
 
 // import relative path
 import VideoPage from './Home/components/VideoPage';
