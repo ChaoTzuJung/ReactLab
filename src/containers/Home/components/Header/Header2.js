@@ -50,7 +50,7 @@ export default class Header2 extends Component {
         <nav className="header fixed">
           <div className="nav-wrapper white">
             {/* LOGO */}
-            <li className="brand-logo center">
+            <Link to="" className="brand-logo center">
               <div className="imgBox">
                 <div className="imgBox-inner">
                   <div className="imgBox-fit">
@@ -58,7 +58,7 @@ export default class Header2 extends Component {
                   </div>
                 </div>
               </div>
-            </li>
+            </Link>
             {/* 左邊的按鈕 */}
             <ul className="left hide-on-med-and-down">
               <li>
@@ -114,8 +114,10 @@ export default class Header2 extends Component {
             {/* 漢堡選單OPEN */}
             <ul className="side-nav" id="side-out">
               <li><a><i className="material-icons icon-grey-darken-4">search</i></a></li>
+              <li><Link to="Aboutus" className="dropdown-button grey-text text-darken-4">About us</Link></li>
               <li><a>Log in</a></li>
-              <a className="dropdown-button" data-activates="mob-menu" data-beloworigin="true">Sign up<i className="material-icons right">arrow_drop_down</i></a>
+              <li><a className="dropdown-button" data-activates="mob-menu" data-beloworigin="true">Sign up<i className="material-icons right">arrow_drop_down</i></a></li>
+
             </ul>
           </div>
         </nav>
