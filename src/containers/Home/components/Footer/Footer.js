@@ -43,7 +43,7 @@ export default class Footers extends Component {
             <div className="align-self-fe mb10">
               <p>Copyright @ 2017 LiveShare Inc. 保留一切權利。</p>
             </div>
-            <select className="browser-default w25 fr align-self-fe posa-r0">
+            <select className="browser-default col s12 m6 bgc-op w25 fr align-self-fe posa-r0 ">
               <option value="" disabled selected>Choose your language</option>
               <option value="1">繁體中文</option>
               <option value="2">簡體中文</option>
